@@ -1,0 +1,489 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+span {
+  color: red;
+}
+
+#without {
+  background: black;
+}
+
+#hover1 :hover {
+  background-color: aqua;
+}
+
+#hover2 :hover {
+  background-color: purple;
+}
+
+#hover3 :hover {
+  background-color: blue;
+}
+
+#hover :hover {
+  background-color: darkblue;
+}
+
+#hover4 :hover {
+  background-color: green;
+}
+
+a ul li {
+  color: darkmagenta;
+}
+
+.secondbox {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  position: absolute;
+  top: 50px;
+  z-index: auto;
+}
+
+.banner {
+  width: 40%;
+  position: relative;
+  left: 35%;
+  top: 80px;
+}
+
+.banner:hover {
+  transform: scale(1.5);
+}
+
+.banner h3 {
+  color: green;
+}
+
+.banner h1 {
+  color: #fff;
+  font-weight: bolder;
+  font-size: 60px;
+}
+
+.banner h5 {
+  color: green;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+/* firstpart ends*/
+
+/*  THIRD BOX START*/
+.thirdbox {
+  /* background-color:rgb(54, 69, 79);*/
+  background-color: black;
+  padding: 70px;
+  margin-top: 390px;
+}
+
+.red {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 47%;
+  height: 350px;
+}
+
+.inner {
+  width: 100%;
+  height: 200px;
+}
+
+.inner img {
+  width: 50%;
+  position: relative;
+  left: 100px;
+  height: 350px;
+  border: 1px solid black;
+}
+
+.right {
+  width: 47%;
+  height: 350px;
+}
+
+.right h1 {
+  color: #fff;
+  font-weight: bolder;
+  transition-property: all;
+  color: black;
+  cursor: pointer;
+  width: 200px;
+}
+
+.right h1:hover {
+  background-color: green;
+}
+
+.right p {
+  color: #fff;
+  padding-top: 20px;
+  text-transform: capitalize;
+}
+.right h3 {
+  color: green;
+  font-size: 30px;
+  font-weight: bolder;
+  width: 145px;
+  cursor: pointer;
+}
+
+.right h3:hover {
+  background-color: blue;
+}
+
+#click2 {
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  background-color: red;
+  border: 0;
+  font-weight: 400;
+  border-radius: 30px;
+  transition-duration: 1s;
+  margin-top: 20px;
+}
+
+#click2:hover {
+  background-color: palegreen;
+}
+
+/*  our service start*/
+
+.ourservices {
+  width: 100%;
+  background-color: black;
+  padding: 20px;
+}
+
+.ourservices h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.container .font {
+  font-size: 25px;
+  margin-left: 45%;
+  margin-top: 20px;
+}
+
+.first {
+  width: 90%;
+  height: 250px;
+  margin-right: 8%;
+  background-color: black;
+}
+
+.first p {
+  color: #fff;
+  padding-left: 15px;
+}
+.second {
+  width: 90%;
+  height: 250px;
+  margin-right: 8%;
+  background-color: black;
+}
+
+.second p {
+  color: #fff;
+  padding-left: 15px;
+}
+
+.third {
+  width: 90%;
+  height: 250px;
+  background-color: black;
+}
+
+.third p {
+  color: #fff;
+  padding-left: 15px;
+}
+.first h1 {
+  font-size: 20px;
+}
+
+.second h1 {
+  font-size: 20px;
+}
+
+.third h1 {
+  font-size: 20px;
+}
+
+#click1 {
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  background-color: red;
+  border: 0;
+  font-weight: 400;
+  border-radius: 30px;
+  transition-duration: 1s;
+  margin-top: 20px;
+  margin-left: 35%;
+}
+
+#click1:hover {
+  background-color: palegreen;
+}
+
+/*  our start ends*/
+
+/* freelancer start*/
+
+.freelancer {
+  width: 100%;
+  height: 250px;
+  padding: 50px;
+  background-color: black;
+}
+
+.freelancer h1 {
+  color: #fff;
+  font-weight: bolder;
+  margin-left: 370px;
+  padding-top: 30px;
+}
+
+#click3 {
+  width: 100px;
+  height: 40px;
+  color: #fff;
+  background-color: red;
+  border: 0;
+  font-weight: 400;
+  border-radius: 30px;
+  transition-duration: 1s;
+  margin-top: 20px;
+  margin-left: 45%;
+}
+
+#click3:hover {
+  background-color: green;
+  transform: scale(1.5);
+}
+
+/* freelancer start*/
+
+.footer {
+  width: 100%;
+  padding-block: 1px;
+  /* margin-bottom:20px; */
+  background-color: black;
+}
+
+.innerdiv {
+  width: 30%;
+  margin-left: 550px;
+}
+
+.innerdiv h4 {
+  color: #fff;
+  font-weight: bolder;
+  margin-left: 50px;
+  width: 250px;
+  transition-duration: 2s;
+  margin-bottom: 0px;
+}
+
+.innerdiv h4:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.innerdiv h5 {
+  margin-left: 100px;
+  padding-right: 30px;
+}
+
+.innerdiv h5 a {
+  padding-right: 30px;
+  font-size: 30px;
+}
+
+hr {
+  background-color: black;
+}
+
+.innerdiv h6 {
+  font-weight: lighter;
+  margin-left: 50px;
+  color: #fff;
+  letter-spacing: 10px;
+}
+
+/*mediaquery start*/
+
+@media only screen and (max-width: 1000px) {
+  .freelancer {
+    background-color: green;
+  }
+
+  .freelancer h1 {
+    margin-left: 130px;
+  }
+
+  .innerdiv {
+    width: 50%;
+    margin-left: 300px;
+  }
+
+  .first {
+    height: 300px;
+  }
+
+  .second {
+    height: 300px;
+  }
+
+  .third {
+    height: 300px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .thirdbox {
+    padding: 70px;
+    height: 550px;
+    margin-top: 390px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .thirdbox {
+    height: 800px;
+    background-color: black;
+  }
+
+  .red {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .left {
+    width: 100%;
+    height: 350px;
+    margin-left: 40px;
+    padding: 0px;
+  }
+
+  .inner img {
+    position: relative;
+    left: 0px;
+    width: 80%;
+    height: 350px;
+    border: 1px solid black;
+  }
+
+  .right {
+    width: 100%;
+    margin-left: 40px;
+  }
+
+  .right p {
+    color: #fff;
+    width: 90%;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+  }
+
+  .first {
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+
+  .second {
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+
+  .third {
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+
+  .freelancer h1 {
+    margin-left: 100px;
+    font-size: 30px;
+  }
+
+  .click3 {
+    margin-left: 50px;
+  }
+
+  .innerdiv {
+    margin-left: 180px;
+    padding: 20px;
+  }
+
+  .banner h5 {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .banner {
+    width: 40%;
+    position: relative;
+    left: 150px;
+    top: 80px;
+  }
+
+  .freelancer h1 {
+    color: #fff;
+    font-weight: bolder;
+    margin-left: 100px;
+    padding-top: 10px;
+  }
+
+  .thirdbox {
+    /* background-color:rgb(54, 69, 79);*/
+    background-color: #800000;
+    height: 950px;
+    padding: 70px;
+    margin-top: 390px;
+  }
+
+  #margin {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+  }
+
+  .innerdiv h4 {
+    margin-left: 0px;
+  }
+
+  .innerdiv h6 {
+    width: 100%;
+    font-size: 9px;
+    margin-left: 00px;
+  }
+
+  .innerdiv {
+    width: 30%;
+  }
+}
